@@ -13,8 +13,8 @@ def get_parser():
     parser = argparse.ArgumentParser( description='Simulated Dataset')
  
     # file name/dir and dataset
-    parser.add_argument('--output_dir', type=str, default="../Dataset/1PV dataset/", help='output_skeletondata_dir')
-    parser.add_argument('--input_data', type=str, default="../Dataset/3PV dataset/raw_skes_data.pkl", help='input_skeletondata_filename')
+    parser.add_argument('--output_dir', type=str, default="./Dataset/1PV/", help='output_skeletondata_dir')
+    parser.add_argument('--input_data', type=str, default="./Dataset/3PV/raw_skes_data.pkl", help='input_skeletondata_filename')
     parser.add_argument('--detail_file', type=str, default="record.txt", help='')
     parser.add_argument('--info_file', type=str, default="info.pkl", help='')    
     parser.add_argument('--dataset', type=str, default="ntu", help='')

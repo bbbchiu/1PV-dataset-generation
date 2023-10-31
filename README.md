@@ -33,5 +33,5 @@ visualization.py: for 1PV dataset visualization
 
 * command line for generate a 1PV dataset
 ```
-python ../data generation/main.py --output_dir=./Dataset/1PV/ --viewing_type=log --routing_speed=4
+python ./data generation/main.py --output_dir=./Dataset/1PV/ --viewing_type=log --routing_speed=4
 ```
