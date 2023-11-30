@@ -16,7 +16,7 @@ We aim to simulate a first-person view (1PV) dataset by third-person view (3PV) 
     * or you can place it whatever, and remember to modify the input data in the ./data generation/args.py or use command line to correct the input data path
 
 ```
-
+python ./data\ generation/main.py --input_data="input data path"
 ```
 
 ### Dataset Generation

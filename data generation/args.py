@@ -38,7 +38,7 @@ def get_parser():
     parser.add_argument('--pareto_k', type=float, default=2, help='')
     parser.add_argument('--log_mind', type=float, default=3.16, help='')
     parser.add_argument('--log_maxd', type=float, default=4.81, help='')
-    parser.add_argument('--viewing_type', type=str,required=True, help='')
+    parser.add_argument('--viewing_type', type=str,default="log", help='')
     parser.add_argument('--variance',type=int,default=4000,help='')
 
         #     parser.add_argument('', type=, default="", help='')
